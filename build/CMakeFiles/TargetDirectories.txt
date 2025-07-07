@@ -1,0 +1,3 @@
+D:/coding/CGuide/MemoryScanner/build/CMakeFiles/Scanner.dir
+D:/coding/CGuide/MemoryScanner/build/CMakeFiles/edit_cache.dir
+D:/coding/CGuide/MemoryScanner/build/CMakeFiles/rebuild_cache.dir

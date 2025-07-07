@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/coding/CGuide/MemoryScanner/build",
+  "command": "D:\\Apps\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\Scanner.dir\\src\\main.cpp.obj -c D:\\coding\\CGuide\\MemoryScanner\\src\\main.cpp",
+  "file": "D:/coding/CGuide/MemoryScanner/src/main.cpp",
+  "output": "CMakeFiles/Scanner.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/coding/CGuide/MemoryScanner/build",
+  "command": "D:\\Apps\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\Scanner.dir\\src\\ProcessScanner\\ProcessScanner.cpp.obj -c D:\\coding\\CGuide\\MemoryScanner\\src\\ProcessScanner\\ProcessScanner.cpp",
+  "file": "D:/coding/CGuide/MemoryScanner/src/ProcessScanner/ProcessScanner.cpp",
+  "output": "CMakeFiles/Scanner.dir/src/ProcessScanner/ProcessScanner.cpp.obj"
+}
+]
