@@ -6,11 +6,11 @@ using namespace std;
 
 int main() {
     ProcessScanner processScanner;
-    // for (ProcessNameAndID process: processScanner.getAllProcesses()) {
-    //     cout << process.name << " " << process.id << endl;
-    // }
+    for (ProcessNameAndID process: processScanner.getAllProcesses()) {
+        cout << process.name << " " << process.id << endl;
+    }
 
-    // cout << endl;
+    cout << endl;
 
     MemoryScanner memoryScanner;
     for (ProcessNameAndID process: processScanner.getProcessesByName("steam")) {

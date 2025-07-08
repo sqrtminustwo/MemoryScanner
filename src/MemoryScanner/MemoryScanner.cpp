@@ -69,7 +69,6 @@ template <class T> vector<BufferInfo<T>> MemoryScanner::getProcessMatches(DWORD 
     }
     return matches;
 }
-
 template std::vector<BufferInfo<int>> MemoryScanner::getProcessMatches<int>(unsigned long, int);
 template std::vector<BufferInfo<float>> MemoryScanner::getProcessMatches<float>(unsigned long, float);
 template std::vector<BufferInfo<double>> MemoryScanner::getProcessMatches<double>(unsigned long, double);
