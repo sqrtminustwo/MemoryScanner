@@ -1,109 +1,16 @@
-CMakeFiles/Scanner.dir/src/main.cpp.obj: \
- D:\coding\CGuide\MemoryScanner\src\main.cpp \
- D:\coding\CGuide\MemoryScanner\src\ProcessScanner/ProcessScanner.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/string \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/requires_hosted.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/c++config.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/os_defines.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/pstl/pstl_config.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stringfwd.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/memoryfwd.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/char_traits.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/postypes.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/cwchar \
- D:/Apps/msys64/ucrt64/include/wchar.h \
- D:/Apps/msys64/ucrt64/include/corecrt.h \
+CMakeFiles/Scanner.dir/src/MemoryScanner/MemoryScanner.cpp.obj: \
+ D:\coding\CGuide\MemoryScanner\src\MemoryScanner\MemoryScanner.cpp \
+ D:\coding\CGuide\MemoryScanner\src\MemoryScanner\MemoryScanner.h \
+ D:/Apps/msys64/ucrt64/include/windows.h \
  D:/Apps/msys64/ucrt64/include/_mingw.h \
  D:/Apps/msys64/ucrt64/include/_mingw_mac.h \
  D:/Apps/msys64/ucrt64/include/_mingw_secapi.h \
  D:/Apps/msys64/ucrt64/include/vadefs.h \
  D:/Apps/msys64/ucrt64/include/sdks/_mingw_ddk.h \
- D:/Apps/msys64/ucrt64/include/corecrt_stdio_config.h \
- D:/Apps/msys64/ucrt64/include/corecrt_wstdlib.h \
- D:/Apps/msys64/ucrt64/include/corecrt_wctype.h \
- D:/Apps/msys64/ucrt64/include/_mingw_off_t.h \
- D:/Apps/msys64/ucrt64/include/_mingw_stat64.h \
- D:/Apps/msys64/ucrt64/include/swprintf.inl \
- D:/Apps/msys64/ucrt64/include/sec_api/wchar_s.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/type_traits \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/version.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/allocator.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/new_allocator.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/new \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/exception.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/functexcept.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/exception_defines.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/move.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/cpp_type_traits.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/localefwd.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/c++locale.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/clocale \
- D:/Apps/msys64/ucrt64/include/locale.h \
- D:/Apps/msys64/ucrt64/include/crtdefs.h \
- D:/Apps/msys64/ucrt64/include/stdio.h \
- D:/Apps/msys64/ucrt64/include/sec_api/stdio_s.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/iosfwd \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/cctype \
- D:/Apps/msys64/ucrt64/include/ctype.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/ostream_insert.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/cxxabi_forced.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_iterator_base_funcs.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/concept_check.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/debug/assertions.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_iterator_base_types.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_iterator.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/ext/type_traits.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/ptr_traits.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_function.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/backward/binders.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/ext/numeric_traits.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_algobase.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_pair.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/utility.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/debug/debug.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/predefined_ops.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bit \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/concepts \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/refwrap.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/invoke.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/range_access.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/initializer_list \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/basic_string.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/ext/alloc_traits.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/alloc_traits.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_construct.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/string_view \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/functional_hash.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/hash_bytes.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/string_view.tcc \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/ext/string_conversions.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/cstdlib \
- D:/Apps/msys64/ucrt64/include/stdlib.h \
- D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
- D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
- D:/Apps/msys64/ucrt64/include/limits.h \
- D:/Apps/msys64/ucrt64/include/sec_api/stdlib_s.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/stdlib.h \
- D:/Apps/msys64/ucrt64/include/malloc.h \
- D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
- D:/Apps/msys64/ucrt64/include/errno.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/std_abs.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/cstdio \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/cerrno \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/charconv.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/basic_string.tcc \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/memory_resource.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/cstddef \
- D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
- D:/Apps/msys64/ucrt64/include/stddef.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/uses_allocator.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/uses_allocator_args.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/tuple \
- D:/Apps/msys64/ucrt64/include/windows.h \
  D:/Apps/msys64/ucrt64/include/sdkddkver.h \
  D:/Apps/msys64/ucrt64/include/excpt.h \
+ D:/Apps/msys64/ucrt64/include/crtdefs.h \
+ D:/Apps/msys64/ucrt64/include/corecrt.h \
  D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
  D:/Apps/msys64/ucrt64/include/stdarg.h \
  D:/Apps/msys64/ucrt64/include/_mingw_stdarg.h \
@@ -116,6 +23,8 @@ CMakeFiles/Scanner.dir/src/main.cpp.obj: \
  D:/Apps/msys64/ucrt64/include/driverspecs.h \
  D:/Apps/msys64/ucrt64/include/winnt.h \
  D:/Apps/msys64/ucrt64/include/_mingw_unicode.h \
+ D:/Apps/msys64/ucrt64/include/ctype.h \
+ D:/Apps/msys64/ucrt64/include/corecrt_wctype.h \
  D:/Apps/msys64/ucrt64/include/apiset.h \
  D:/Apps/msys64/ucrt64/include/psdk_inc/intrin-impl.h \
  D:/Apps/msys64/ucrt64/include/basetsd.h \
@@ -125,6 +34,8 @@ CMakeFiles/Scanner.dir/src/main.cpp.obj: \
  D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
  D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
  D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
+ D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
+ D:/Apps/msys64/ucrt64/include/stddef.h \
  D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
  D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
  D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
@@ -165,6 +76,22 @@ CMakeFiles/Scanner.dir/src/main.cpp.obj: \
  D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
  D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
  D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
+ D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/stdlib.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/cstdlib \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/c++config.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/os_defines.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/pstl/pstl_config.h \
+ D:/Apps/msys64/ucrt64/include/stdlib.h \
+ D:/Apps/msys64/ucrt64/include/corecrt_wstdlib.h \
+ D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
+ D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+ D:/Apps/msys64/ucrt64/include/limits.h \
+ D:/Apps/msys64/ucrt64/include/sec_api/stdlib_s.h \
+ D:/Apps/msys64/ucrt64/include/malloc.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/std_abs.h \
+ D:/Apps/msys64/ucrt64/include/errno.h \
  D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
  D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
  D:/Apps/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
@@ -368,24 +295,85 @@ CMakeFiles/Scanner.dir/src/main.cpp.obj: \
  D:/Apps/msys64/ucrt64/include/sec_api/stralign_s.h \
  D:/Apps/msys64/ucrt64/include/winsvc.h \
  D:/Apps/msys64/ucrt64/include/mcx.h D:/Apps/msys64/ucrt64/include/imm.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/vector \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_uninitialized.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_vector.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_bvector.h \
- D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/vector.tcc \
- D:\coding\CGuide\MemoryScanner\src\MemoryScanner/MemoryScanner.h \
+ D:/Apps/msys64/ucrt64/include/stdio.h \
+ D:/Apps/msys64/ucrt64/include/corecrt_stdio_config.h \
+ D:/Apps/msys64/ucrt64/include/_mingw_off_t.h \
+ D:/Apps/msys64/ucrt64/include/swprintf.inl \
+ D:/Apps/msys64/ucrt64/include/sec_api/stdio_s.h \
  D:/Apps/msys64/ucrt64/include/tchar.h \
  D:/Apps/msys64/ucrt64/include/sec_api/tchar_s.h \
  D:/Apps/msys64/ucrt64/include/psapi.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/vector \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/requires_hosted.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_algobase.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/functexcept.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/exception_defines.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/cpp_type_traits.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/version.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/type_traits \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/ext/type_traits.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/ext/numeric_traits.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_pair.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/move.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/utility.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_iterator_base_types.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_iterator_base_funcs.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/concept_check.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/debug/assertions.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_iterator.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/ptr_traits.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/debug/debug.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/predefined_ops.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bit \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/concepts \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/allocator.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/new_allocator.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/new \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/exception.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/memoryfwd.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_construct.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_uninitialized.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/ext/alloc_traits.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/alloc_traits.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_vector.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/initializer_list \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_bvector.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/functional_hash.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/hash_bytes.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/refwrap.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/invoke.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stl_function.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/backward/binders.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/range_access.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/vector.tcc \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/memory_resource.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/cstddef \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/uses_allocator.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/uses_allocator_args.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/tuple \
  D:/Apps/msys64/ucrt64/include/c++/15.1.0/iostream \
  D:/Apps/msys64/ucrt64/include/c++/15.1.0/ostream \
  D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/ostream.h \
  D:/Apps/msys64/ucrt64/include/c++/15.1.0/ios \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/iosfwd \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/stringfwd.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/postypes.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/cwchar \
+ D:/Apps/msys64/ucrt64/include/wchar.h \
+ D:/Apps/msys64/ucrt64/include/_mingw_stat64.h \
+ D:/Apps/msys64/ucrt64/include/sec_api/wchar_s.h \
  D:/Apps/msys64/ucrt64/include/c++/15.1.0/exception \
  D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/exception_ptr.h \
  D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/cxxabi_init_exception.h \
  D:/Apps/msys64/ucrt64/include/c++/15.1.0/typeinfo \
  D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/nested_exception.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/char_traits.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/localefwd.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/c++locale.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/clocale \
+ D:/Apps/msys64/ucrt64/include/locale.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/cctype \
  D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/ios_base.h \
  D:/Apps/msys64/ucrt64/include/c++/15.1.0/ext/atomicity.h \
  D:/Apps/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/gthr.h \
@@ -405,6 +393,17 @@ CMakeFiles/Scanner.dir/src/main.cpp.obj: \
  D:/Apps/msys64/ucrt64/include/pthread_unistd.h \
  D:/Apps/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/atomic_word.h \
  D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/locale_classes.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/string \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/ostream_insert.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/cxxabi_forced.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/basic_string.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/string_view \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/string_view.tcc \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/ext/string_conversions.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/cstdio \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/cerrno \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/charconv.h \
+ D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/basic_string.tcc \
  D:/Apps/msys64/ucrt64/include/c++/15.1.0/bits/locale_classes.tcc \
  D:/Apps/msys64/ucrt64/include/c++/15.1.0/system_error \
  D:/Apps/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/error_constants.h \

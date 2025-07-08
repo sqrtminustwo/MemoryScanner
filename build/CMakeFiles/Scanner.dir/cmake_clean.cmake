@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Scanner.dir/src/MemoryScanner/MemoryScanner.cpp.obj"
+  "CMakeFiles/Scanner.dir/src/MemoryScanner/MemoryScanner.cpp.obj.d"
   "CMakeFiles/Scanner.dir/src/ProcessScanner/ProcessScanner.cpp.obj"
   "CMakeFiles/Scanner.dir/src/ProcessScanner/ProcessScanner.cpp.obj.d"
   "CMakeFiles/Scanner.dir/src/main.cpp.obj"

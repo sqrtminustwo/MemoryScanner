@@ -84,12 +84,12 @@ clean: CMakeFiles/Scanner.dir/clean
 CMakeFiles/Scanner.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scanner.dir\build.make CMakeFiles/Scanner.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scanner.dir\build.make CMakeFiles/Scanner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\coding\CGuide\MemoryScanner\build\CMakeFiles --progress-num=1,2,3 "Built target Scanner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\coding\CGuide\MemoryScanner\build\CMakeFiles --progress-num=1,2,3,4 "Built target Scanner"
 .PHONY : CMakeFiles/Scanner.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Scanner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\coding\CGuide\MemoryScanner\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\coding\CGuide\MemoryScanner\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Scanner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\coding\CGuide\MemoryScanner\build\CMakeFiles 0
 .PHONY : CMakeFiles/Scanner.dir/rule
@@ -101,7 +101,7 @@ Scanner: CMakeFiles/Scanner.dir/rule
 # codegen rule for target.
 CMakeFiles/Scanner.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scanner.dir\build.make CMakeFiles/Scanner.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\coding\CGuide\MemoryScanner\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target Scanner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\coding\CGuide\MemoryScanner\build\CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target Scanner"
 .PHONY : CMakeFiles/Scanner.dir/codegen
 
 # clean rule for target.

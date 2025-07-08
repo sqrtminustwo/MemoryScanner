@@ -128,6 +128,30 @@ Scanner/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scanner.dir\build.make CMakeFiles/Scanner.dir/build
 .PHONY : Scanner/fast
 
+src/MemoryScanner/MemoryScanner.obj: src/MemoryScanner/MemoryScanner.cpp.obj
+.PHONY : src/MemoryScanner/MemoryScanner.obj
+
+# target to build an object file
+src/MemoryScanner/MemoryScanner.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scanner.dir\build.make CMakeFiles/Scanner.dir/src/MemoryScanner/MemoryScanner.cpp.obj
+.PHONY : src/MemoryScanner/MemoryScanner.cpp.obj
+
+src/MemoryScanner/MemoryScanner.i: src/MemoryScanner/MemoryScanner.cpp.i
+.PHONY : src/MemoryScanner/MemoryScanner.i
+
+# target to preprocess a source file
+src/MemoryScanner/MemoryScanner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scanner.dir\build.make CMakeFiles/Scanner.dir/src/MemoryScanner/MemoryScanner.cpp.i
+.PHONY : src/MemoryScanner/MemoryScanner.cpp.i
+
+src/MemoryScanner/MemoryScanner.s: src/MemoryScanner/MemoryScanner.cpp.s
+.PHONY : src/MemoryScanner/MemoryScanner.s
+
+# target to generate assembly for a file
+src/MemoryScanner/MemoryScanner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scanner.dir\build.make CMakeFiles/Scanner.dir/src/MemoryScanner/MemoryScanner.cpp.s
+.PHONY : src/MemoryScanner/MemoryScanner.cpp.s
+
 src/ProcessScanner/ProcessScanner.obj: src/ProcessScanner/ProcessScanner.cpp.obj
 .PHONY : src/ProcessScanner/ProcessScanner.obj
 
@@ -185,6 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Scanner
+	@echo ... src/MemoryScanner/MemoryScanner.obj
+	@echo ... src/MemoryScanner/MemoryScanner.i
+	@echo ... src/MemoryScanner/MemoryScanner.s
 	@echo ... src/ProcessScanner/ProcessScanner.obj
 	@echo ... src/ProcessScanner/ProcessScanner.i
 	@echo ... src/ProcessScanner/ProcessScanner.s

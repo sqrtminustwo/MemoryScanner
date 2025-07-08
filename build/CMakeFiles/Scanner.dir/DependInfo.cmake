@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/coding/CGuide/MemoryScanner/src/MemoryScanner/MemoryScanner.cpp" "CMakeFiles/Scanner.dir/src/MemoryScanner/MemoryScanner.cpp.obj" "gcc" "CMakeFiles/Scanner.dir/src/MemoryScanner/MemoryScanner.cpp.obj.d"
   "D:/coding/CGuide/MemoryScanner/src/ProcessScanner/ProcessScanner.cpp" "CMakeFiles/Scanner.dir/src/ProcessScanner/ProcessScanner.cpp.obj" "gcc" "CMakeFiles/Scanner.dir/src/ProcessScanner/ProcessScanner.cpp.obj.d"
   "D:/coding/CGuide/MemoryScanner/src/main.cpp" "CMakeFiles/Scanner.dir/src/main.cpp.obj" "gcc" "CMakeFiles/Scanner.dir/src/main.cpp.obj.d"
   )

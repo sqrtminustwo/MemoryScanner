@@ -6,8 +6,8 @@
 #include <vector>
 #include <algorithm>
 #include <cctype>
-#include <string>
 #include <bits/stdc++.h>
+
 using namespace std;
 
 // To ensure correct resolution of symbols, add Psapi.lib to TARGETLIBS
@@ -15,7 +15,6 @@ using namespace std;
 ProcessNameAndID ProcessScanner::getProcessNameAndID(DWORD processID) {
     TCHAR szProcessName[MAX_PATH] = TEXT("<unknown>");
 
-    // Get a handle to the process.
     HANDLE hProcess = OpenProcess(
         PROCESS_QUERY_INFORMATION |
         PROCESS_VM_READ,
@@ -23,7 +22,6 @@ ProcessNameAndID ProcessScanner::getProcessNameAndID(DWORD processID) {
         processID
     );
 
-    // Get the process name.
     if (NULL != hProcess) {
         HMODULE hMod;
         DWORD cbNeeded;
@@ -38,7 +36,6 @@ ProcessNameAndID ProcessScanner::getProcessNameAndID(DWORD processID) {
         }
     }
 
-    // Return the process name and identifier.
     CloseHandle(hProcess);
     return ProcessNameAndID(string(szProcessName), processID);
 
@@ -58,7 +55,6 @@ vector<ProcessNameAndID> ProcessScanner::getAllProcesses() {
     // Calculate how many process identifiers were returned.
     cProcesses = cbNeeded/sizeof(DWORD);
 
-    // Print the name and process identifier for each process.
     for (i = 0; i < cProcesses; i++ ) {
         if(aProcesses[i] != 0) {
            processes.push_back(getProcessNameAndID(aProcesses[i]));
@@ -76,7 +72,7 @@ ProcessNameAndID ProcessScanner::getProcessById(int id) {
 }
 
 void ProcessScanner::toLower(string str) {
-    std::transform(str.begin(), str.end(), str.begin(), [](unsigned char c){ return std::tolower(c); });
+    transform(str.begin(), str.end(), str.begin(), [](unsigned char c){ return std::tolower(c); });
 }
 
 vector<ProcessNameAndID> ProcessScanner::getProcessesByName(string search) {

@@ -6,25 +6,19 @@
 #include <vector>
 using namespace std;
 
-class ProcessNotFoundException: public std::exception {
+class ProcessNotFoundException: public exception {
     int id;
     string name;
     public:
-    ProcessNotFoundException(int id, string name) {
-        this->id = id;
-        this->name = name;
-    };
+    ProcessNotFoundException(int id, string name): id(id), name(name) {};
     int getId() { return id; };
     string getName() { return name; }
 };
 
 struct ProcessNameAndID {
+    DWORD id;
     string name;
-    int id;
-    ProcessNameAndID(string name, int id) {
-        this->name = name;
-        this->id = id;
-    };
+    ProcessNameAndID(string name, DWORD id): name(name), id(id) {};
 };
 
 class ProcessScanner {
