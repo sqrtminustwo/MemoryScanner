@@ -27,10 +27,10 @@ template <class T> BufferInfo<T> MemoryScanner::getBufferInfo(HANDLE hProc, MEMO
 
     return bufferInfo;
 }
-template BufferInfo<int> MemoryScanner::getBufferInfo<int>(HANDLE hProc, MEMORY_BASIC_INFORMATION mbi);
-template BufferInfo<float> MemoryScanner::getBufferInfo<float>(HANDLE hProc, MEMORY_BASIC_INFORMATION mbi);
-template BufferInfo<double> MemoryScanner::getBufferInfo<double>(HANDLE hProc, MEMORY_BASIC_INFORMATION mbi);
-template BufferInfo<string> MemoryScanner::getBufferInfo<string>(HANDLE hProc, MEMORY_BASIC_INFORMATION mbi);
+template BufferInfo<int> MemoryScanner::getBufferInfo<int>(HANDLE, MEMORY_BASIC_INFORMATION);
+template BufferInfo<float> MemoryScanner::getBufferInfo<float>(HANDLE, MEMORY_BASIC_INFORMATION);
+template BufferInfo<double> MemoryScanner::getBufferInfo<double>(HANDLE, MEMORY_BASIC_INFORMATION);
+template BufferInfo<string> MemoryScanner::getBufferInfo<string>(HANDLE, MEMORY_BASIC_INFORMATION);
 
 template <class T> vector<BufferInfo<T>> MemoryScanner::getMemInfo(DWORD pid) {
     HANDLE hProc;
@@ -69,7 +69,7 @@ template <class T> vector<BufferInfo<T>> MemoryScanner::getProcessMatches(DWORD 
     }
     return matches;
 }
-template std::vector<BufferInfo<int>> MemoryScanner::getProcessMatches<int>(unsigned long, int);
-template std::vector<BufferInfo<float>> MemoryScanner::getProcessMatches<float>(unsigned long, float);
-template std::vector<BufferInfo<double>> MemoryScanner::getProcessMatches<double>(unsigned long, double);
-template std::vector<BufferInfo<string>> MemoryScanner::getProcessMatches<string>(unsigned long, string);
+template std::vector<BufferInfo<int>> MemoryScanner::getProcessMatches<int>(DWORD, int);
+template std::vector<BufferInfo<float>> MemoryScanner::getProcessMatches<float>(DWORD, float);
+template std::vector<BufferInfo<double>> MemoryScanner::getProcessMatches<double>(DWORD, double);
+template std::vector<BufferInfo<string>> MemoryScanner::getProcessMatches<string>(DWORD, string);
