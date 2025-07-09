@@ -30,7 +30,7 @@ template <class T> BufferInfo<T> MemoryScanner::getBufferInfo(HANDLE hProc, MEMO
 template BufferInfo<int> MemoryScanner::getBufferInfo<int>(HANDLE, MEMORY_BASIC_INFORMATION);
 template BufferInfo<float> MemoryScanner::getBufferInfo<float>(HANDLE, MEMORY_BASIC_INFORMATION);
 template BufferInfo<double> MemoryScanner::getBufferInfo<double>(HANDLE, MEMORY_BASIC_INFORMATION);
-template BufferInfo<string> MemoryScanner::getBufferInfo<string>(HANDLE, MEMORY_BASIC_INFORMATION);
+template BufferInfo<char const*> MemoryScanner::getBufferInfo<char const*>(HANDLE, MEMORY_BASIC_INFORMATION);
 
 template <class T> vector<BufferInfo<T>> MemoryScanner::getMemInfo(DWORD pid) {
     HANDLE hProc;
@@ -72,4 +72,4 @@ template <class T> vector<BufferInfo<T>> MemoryScanner::getProcessMatches(DWORD 
 template std::vector<BufferInfo<int>> MemoryScanner::getProcessMatches<int>(DWORD, int);
 template std::vector<BufferInfo<float>> MemoryScanner::getProcessMatches<float>(DWORD, float);
 template std::vector<BufferInfo<double>> MemoryScanner::getProcessMatches<double>(DWORD, double);
-template std::vector<BufferInfo<string>> MemoryScanner::getProcessMatches<string>(DWORD, string);
+template std::vector<BufferInfo<char const*>> MemoryScanner::getProcessMatches<char const*>(DWORD, char const*);
