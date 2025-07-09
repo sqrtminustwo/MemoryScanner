@@ -16,7 +16,7 @@ void searchValue(const string& process_name, const char* value);
 
 int main(int argc, char* argv[]) {
     if (argc != 3) {
-        cerr << "Usage: .\\Scanner ProcessName SearchValue" << endl;
+        cerr << "Usage: .\\Scanner <ProcessName> <SearchValue>" << endl;
         return 1;
     }
 
@@ -59,7 +59,7 @@ template <class T> void searchAnyValue(const string& process_name, T value) {
     }
 }
 
-void searchValue(const string& process_name, int value)       { searchAnyValue(process_name, value); }
-void searchValue(const string& process_name, float value)     { searchAnyValue(process_name, value); }
-void searchValue(const string& process_name, double value)    { searchAnyValue(process_name, value); }
+void searchValue(const string& process_name, int value) { searchAnyValue(process_name, value); }
+void searchValue(const string& process_name, float value) { searchAnyValue(process_name, value); }
+void searchValue(const string& process_name, double value) { searchAnyValue(process_name, value); }
 void searchValue(const string& process_name, const char* value) { searchAnyValue(process_name, value); }
