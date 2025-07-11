@@ -9,5 +9,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(Scanner
     src/main.cpp
     src/ProcessScanner/ProcessScanner.cpp
-    src/MemoryScanner/MemoryScanner.cpp
 )

@@ -4,6 +4,7 @@
 #include <string>
 #include <windows.h>
 #include <vector>
+#include <iostream>
 using namespace std;
 
 class ProcessNotFoundException: public exception {
@@ -19,6 +20,7 @@ struct ProcessNameAndID {
     DWORD id;
     string name;
     ProcessNameAndID(string name, DWORD id): name(name), id(id) {};
+    void print() { cout << name << " " << id << endl; }
 };
 
 class ProcessScanner {
